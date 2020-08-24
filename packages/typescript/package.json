@@ -1,0 +1,16 @@
+{
+  "name": "@unlikelystudio/bases-typescript",
+  "version": "0.0.0",
+  "description": "🧩 Typescript config",
+  "author": "baloran <arnaud.allouis@unlikely.studio>",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:unlikelystudio/bases.git"
+  },
+  "files": [
+    "tsconfig-backend.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
