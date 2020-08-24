@@ -1,6 +1,7 @@
 {
   "name": "@unlikelystudio/bases-typescript",
   "version": "0.1.0",
+  "private": "false",
   "description": "🧩 Typescript config",
   "author": "baloran <arnaud.allouis@unlikely.studio>",
   "repository": {
@@ -13,5 +14,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "03a08cca6e758b67db21d92e8ceda52ce4f4d921"
+  "gitHead": "ae4660056efed665405739a1ce70dc2acc75e551"
 }
