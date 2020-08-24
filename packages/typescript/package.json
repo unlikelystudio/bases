@@ -2,6 +2,9 @@
   "name": "@unlikelystudio/bases-typescript",
   "version": "0.1.2",
   "private": "false",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "🧩 Typescript config",
   "author": "baloran <arnaud.allouis@unlikely.studio>",
   "repository": {
