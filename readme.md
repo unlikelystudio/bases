@@ -24,3 +24,7 @@
 ### Typescript [![typescript](https://img.shields.io/badge/typescript-src-black)](./packages/typescript) [![npm version](https://badge.fury.io/js/%40unlikelystudio%2Fbases-typescript.svg)](https://badge.fury.io/js/%40unlikelystudio%2Fbases-typescript)
 
 Base config for typescript back-end and front-end.
+
+### Prettier [![prettier](https://img.shields.io/badge/prettier-src-black)](./packages/prettier) [![npm version](https://badge.fury.io/js/%40unlikelystudio%2Fbases-prettier.svg)](https://badge.fury.io/js/%40unlikelystudio%2Fbases-prettier)
+
+Base config for prettier back-end and front-end.
