@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Monorepos for utility things </strong>
+  <strong>Monorepo for utility things </strong>
   <br />
 </p>
 
