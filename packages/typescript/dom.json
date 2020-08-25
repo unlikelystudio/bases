@@ -1,19 +1,14 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "extends": "./base.json",
     "module": "esnext",
-    "resolveJsonModule": true,
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "noImplicitAny": true,
     "noEmit": true,
-    "target": "es6",
-    "baseUrl": ".",
+    "target": "esnext",
     "paths": {
       "@/*": [
         "src/*"
