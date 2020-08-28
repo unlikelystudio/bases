@@ -10,11 +10,26 @@ npm install --save-dev @unlikelystudio/bases-typescript
 yarn add -D @unlikelystudio/bases-typescript
 ```
 
+### Backend / Library
+
 In your tsconfig.json
 
 ```json
 {
-  "extends": "@unlikelystudio/bases-typescript/tsconfig-backend.json",
+  "extends": "@unlikelystudio/bases-typescript/library.json",
+
+  "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
+```
+
+### Dom
+
+In your tsconfig.json
+
+```json
+{
+  "extends": "@unlikelystudio/bases-typescript/dom.json",
 
   "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]
