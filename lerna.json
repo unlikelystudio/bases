@@ -3,10 +3,13 @@
     "packages/*"
   ],
   "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    },
     "version": {
       "message": "chore(release): publish %s"
     }
   },
   "npmClient": "yarn",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }
