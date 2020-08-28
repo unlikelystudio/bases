@@ -5,13 +5,19 @@
     "access": "public"
   },
   "description": "🧩 Typescript config",
-  "author": "baloran <arnaud.allouis@unlikely.studio>",
+  "contributors": [
+    "baloran <arnaud.allouis@unlikely.studio>",
+    "bastienrobert <bastien@unlikely.studio>"
+  ],
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:unlikelystudio/bases.git"
   },
   "files": [
-    "tsconfig-backend.json"
+    "base.json",
+    "library.json",
+    "dom.json",
+    "definitions"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
