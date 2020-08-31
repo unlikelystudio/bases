@@ -14,6 +14,6 @@ In your package.json
 
 ```json
 {
-  "prettier": "@unlikelystudio/bases-prettier"
+  "prettier": "@unlikelystudio/bases-prettier/.prettierrc.json"
 }
 ```

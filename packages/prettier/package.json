@@ -11,11 +11,11 @@
     "url": "ssh://git@github.com:unlikelystudio/bases.git"
   },
   "files": [
-    "prettier.json"
+    ".prettierrc.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "prettier": "./prettier.json",
+  "prettier": "./.prettierrc.json",
   "gitHead": "ae4660056efed665405739a1ce70dc2acc75e551"
 }
