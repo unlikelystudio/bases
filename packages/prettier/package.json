@@ -5,7 +5,11 @@
     "access": "public"
   },
   "description": "🌺 Prettier config",
-  "author": "baloran <arnaud.allouis@unlikely.studio>",
+  "contributors": [
+    "baloran <arnaud.allouis@unlikely.studio>",
+    "bastienrobert <bastien@unlikely.studio>",
+    "raoul <raoul.gaillard@unlikely.studio>"
+  ],
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:unlikelystudio/bases.git"
