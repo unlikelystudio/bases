@@ -1,6 +1,6 @@
 {
+  "extends": "./base.json",
   "compilerOptions": {
-    "extends": "./base.json",
     "esModuleInterop": true,
     "isolatedModules": true,
     "module": "commonjs",

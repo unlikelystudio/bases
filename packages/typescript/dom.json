@@ -1,24 +1,13 @@
 {
+  "extends": "./base.json",
   "compilerOptions": {
-    "extends": "./base.json",
     "module": "esnext",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
     "target": "esnext",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "build",
-    "out"
-  ]
+  "exclude": ["node_modules", "dist", "build", "out"]
 }
