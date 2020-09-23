@@ -29,6 +29,6 @@ Base config for typescript back-end and front-end.
 
 Base config for prettier back-end and front-end.
 
-### Rollup ![rollup](https://img.shields.io/badge/rollup-src-lightgrey)
+### Rollup ![rollup](https://img.shields.io/badge/rollup-src-black)
 
 Base config for Rollup to build modules with typescript.
