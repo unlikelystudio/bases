@@ -2,6 +2,9 @@
   "name": "@unlikelystudio/bases-rollup",
   "version": "1.3.2",
   "description": "Rollup base config for typescipt modules.",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "rollup",
     "typescript",
@@ -10,24 +13,16 @@
   "prettier": "@unlikelystudio/bases-prettier/.prettierrc.json",
   "author": "Raoul Gaillard <raoul.gaillard@unlikely.studio>",
   "homepage": "https://github.com/unlikelystudio/bases#readme",
-  "license": "ISC",
   "main": "rollup.config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unlikelystudio/bases.git"
   },
+  "files": [
+    "rollup.config.js"
+  ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/unlikelystudio/bases/issues"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
