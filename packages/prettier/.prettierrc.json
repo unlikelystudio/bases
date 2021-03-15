@@ -4,5 +4,18 @@
   "singleQuote": true,
   "tabWidth": 2,
   "jsxBracketSameLine": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "importOrder": [
+    "^config/(.*)$",
+    "^@unlikelystudio/(.*)$",
+    "^~/components/(.*)$",
+    "^~/providers/(.*)$",
+    "^~/hooks/(.*)$",
+    "^~/utils/(.*)$",
+    "^~/hocs/(.*)$",
+    "^~/data/(.*)$",
+    "^~/styles/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true
 }
