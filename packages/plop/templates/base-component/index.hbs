@@ -1,0 +1,18 @@
+import classnames from 'classnames/bind'
+import React from 'react'
+
+import css from './styles.module.scss'
+
+const cx = classnames.bind(css)
+
+export interface {{pascalcase name}}Props {
+  className?: string
+}
+
+function {{pascalcase name}}({ className }: {{pascalcase name}}Props) {
+  return <div className={cx(className)}></div>
+}
+
+{{pascalcase name}}.defaultProps = {}
+
+export default {{pascalcase name}}

@@ -1,0 +1,18 @@
+import React from 'react'
+
+import {{pascalcase name}}, { {{pascalcase name}}Props } from './index'
+
+export default {
+  title: '{{pascalcase name}}',
+  component: {{pascalcase name}},
+  parameters: {
+    docs: { description: { component: '' } },
+  },
+}
+
+const Template = (args: {{pascalcase name}}Props) => <{{pascalcase name}} {...args} />
+const Basic = Template.bind({})
+
+Basic.args = {}
+
+export { Basic }

@@ -1,0 +1,31 @@
+{{#contains options "slicemanager"}}
+import mapSliceTypeToComponent from '~/imports/{{dashcase name}}'
+import SliceManager from '~/components/SliceManager'
+{{/contains}}
+
+import {
+  {{#contains options "multiple"}}
+  getStaticPathsFunction,
+  {{/contains}}
+  getStaticPropsFunction,
+} from '~/data/page-data'
+
+function {{pascalcase name}}({ slices }) {
+  return (
+    {{#contains options "slicemanager"}}
+    <SliceManager
+      mapSliceTypeToComponent={mapSliceTypeToComponent}
+      slicesData={slices}
+    />
+    {{else}}
+    null
+    {{/contains}}
+  )
+}
+
+export default {{pascalcase name}}
+
+export const getStaticProps = getStaticPropsFunction({ type: '{{dashcase name}}' })
+{{#contains options "multiple"}}
+export const getStaticPaths = getStaticPathsFunction({ type: '{{dashcase name}}' })
+{{/contains}}

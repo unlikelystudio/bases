@@ -1,0 +1,32 @@
+{
+  "name": "@unlikelystudio/bases-plop",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "description": "⚙️ Plop templates",
+  "main": "plopfile.js",
+  "prettier": "@unlikelystudio/bases-prettier/.prettierrc.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "plop-template": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/unlikelystudio/bases.git"
+  },
+  "contributors": [
+    "antoninlanglade <antonin.langlade@unlikely.technology>"
+  ],
+  "bugs": {
+    "url": "https://github.com/unlikelystudio/bases/issues"
+  },
+  "devDependencies": {
+    "plop": "^2.7.4",
+    "handlebars-helpers": "^0.10.0",
+    "@unlikelystudio/bases-prettier": "^1.4.0",
+    "prettier": "^2.0.5"
+  }
+}
