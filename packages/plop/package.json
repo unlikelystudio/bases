@@ -18,7 +18,9 @@
     "url": "git+ssh://git@github.com/unlikelystudio/bases.git"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "plopfile.js",
+    "templates/"
   ],
   "contributors": [
     "antoninlanglade <antonin.langlade@unlikely.technology>"
