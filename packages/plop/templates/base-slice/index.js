@@ -1,5 +1,5 @@
 module.exports = function (plop) {
-  const BaseComponent = require('../base-component/index.ts')
+  const BaseComponent = require('../base-component/index.js')
 
   return BaseComponent(plop, {
     name: 'Slice',

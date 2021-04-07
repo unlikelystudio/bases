@@ -2,9 +2,9 @@ const path = require('path')
 const helpers = require('handlebars-helpers')
 
 module.exports = function (plop) {
-  const BaseComponent = require('./templates/base-component/index.ts')
-  const BaseSlice = require('./templates/base-slice/index.ts')
-  const BasePage = require('./templates/base-page/index.ts')
+  const BaseComponent = require('./templates/base-component/index.js')
+  const BaseSlice = require('./templates/base-slice/index.js')
+  const BasePage = require('./templates/base-page/index.js')
 
   helpers({
     handlebars: plop.handlebars
