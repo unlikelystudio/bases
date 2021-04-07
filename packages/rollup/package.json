@@ -1,6 +1,6 @@
 {
   "name": "@unlikelystudio/bases-rollup",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Rollup base config for typescipt modules.",
   "publishConfig": {
     "access": "public"
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "@unlikelystudio/bases-prettier": "^1.4.0",
+    "@unlikelystudio/bases-prettier": "^1.5.0",
     "rollup": "^2.28.1",
     "rollup-plugin-typescript2": "^0.27.2",
     "typescript": "^3.9.7"
