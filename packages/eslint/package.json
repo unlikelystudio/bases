@@ -1,0 +1,35 @@
+{
+  "name": "@unlikelystudio/eslint-config",
+  "version": "1.5.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "ESlint config",
+  "contributors": [
+    "baloran <arnaud.allouis@unlikely.studio>",
+    "bastienrobert <bastien@unlikely.studio>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:unlikelystudio/bases.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": "@unlikelystudio/bases-prettier/.prettierrc.json",
+  "gitHead": "ae4660056efed665405739a1ce70dc2acc75e551",
+  "devDependencies": {
+    "@unlikelystudio/bases-prettier": "^1.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "typescript": "^4.2.4"
+  }
+}
