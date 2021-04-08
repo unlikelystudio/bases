@@ -3,11 +3,11 @@
 ## Installation
 
 ```bash
-npm install --save-dev @unlikelystudio/eslint-config
+npx install-peerdeps -D @10up/eslint-config
 
-# or
+# or with yarn
 
-yarn add -D @unlikelystudio/eslint-config
+npx install-peerdeps -D -Y @10up/eslint-config
 ```
 
 Create a new `.eslintrc` file and inserts:
