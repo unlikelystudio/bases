@@ -32,3 +32,7 @@ Base config for prettier back-end and front-end.
 ### Rollup ![rollup](https://img.shields.io/badge/rollup-src-black)
 
 Base config for Rollup to build modules with typescript.
+
+### ESLint ![eslint](https://img.shields.io/badge/eslint-src-black)
+
+Base config for Eslint to lint with typescript.
