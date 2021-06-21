@@ -14,6 +14,14 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier',
   ],
+  ignorePatterns: [
+    "node_modules",
+    "dist",
+    ".build",
+    "coverage",
+    "knexfile.js",
+    "jest.config.js"
+  ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
