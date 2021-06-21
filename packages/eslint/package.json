@@ -1,6 +1,6 @@
 {
   "name": "@unlikelystudio/eslint-config",
-  "version": "1.5.0",
+  "version": "1.6.0-alpha.0",
   "publishConfig": {
     "access": "public"
   },
@@ -24,9 +24,9 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "eslint": ">= 7",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint": ">= 7",
     "prettier": ">= 2"
   },
   "dependencies": {
