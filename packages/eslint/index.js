@@ -14,7 +14,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier',
   ],
-  ignorePatters: [
+  ignorePatterns: [
     "node_modules",
     "dist",
     ".build",
