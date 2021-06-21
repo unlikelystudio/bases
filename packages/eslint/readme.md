@@ -3,17 +3,19 @@
 ## Installation
 
 ```bash
-npx install-peerdeps -D @10up/eslint-config
+npx install-peerdeps -D @unlikelystudio/eslint-config
 
 # or with yarn
 
-npx install-peerdeps -D -Y @10up/eslint-config
+npx install-peerdeps -D -Y @unlikelystudio/eslint-config
 ```
 
-Create a new `.eslintrc` file and inserts:
+In the package.json inserts:
 
 ```json
 {
-  "extends": "@unlikelystudio/eslint-config"
+  "eslintConfig": {
+    "extends": "@unlikelystudio"
+  }
 }
 ```
