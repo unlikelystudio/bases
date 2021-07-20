@@ -25,7 +25,7 @@ function {{pascalcase name}}({ slices }) {
 
 export default {{pascalcase name}}
 
-export const getStaticProps = getStaticPropsFunction({ type: '{{dashcase name}}' })
+export const getStaticProps = getStaticPropsFunction({ type: '{{snakecase name}}' })
 {{#contains options "multiple"}}
-export const getStaticPaths = getStaticPathsFunction({ type: '{{dashcase name}}' })
+export const getStaticPaths = getStaticPathsFunction({ type: '{{snakecase name}}' })
 {{/contains}}
