@@ -1,0 +1,25 @@
+import React, { createContext, ReactNode, useContext, useMemo } from 'react'
+
+interface {{pascalcase name}}Context {}
+
+const Context = createContext<{{pascalcase name}}Context>({})
+
+export function use{{pascalcase name}}() {
+  return useContext(Context)
+}
+
+export interface {{pascalcase name}}Props {
+  children?: ReactNode | ReactNode[]
+}
+
+function {{pascalcase name}}({
+  children
+}: {{pascalcase name}}Props) {
+  const providerValue = useMemo(() => ({}), [])
+
+  return <Context.Provider value={providerValue}>{children}</Context.Provider>
+}
+
+{{pascalcase name}}.defaultProps = {}
+
+export default {{pascalcase name}}
