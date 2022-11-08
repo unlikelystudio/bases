@@ -10,11 +10,6 @@ module.exports = function (plop) {
         templateFile: './templates/base-slice/index.hbs',
       },
       {
-        type: 'add',
-        path: './src/data/slices-data/{{dashcase name}}/prismic.json',
-        templateFile: './templates/base-slice/json.hbs',
-      },
-      {
         type: 'modify',
         path: './src/data/slices-data/index.ts',
         pattern: /(\/\* TEMPLATE IMPORT \*\/)/g,
@@ -23,8 +18,14 @@ module.exports = function (plop) {
       {
         type: 'modify',
         path: './src/data/slices-data/index.ts',
-        pattern: /(\/\* TEMPLATE CASE \*\/)/g,
-        templateFile: './templates/base-slice/case.hbs',
+        pattern: /(\/\* TEMPLATE KEY \*\/)/g,
+        templateFile: './templates/base-slice/key.hbs',
+      },
+      {
+        type: 'modify',
+        path: './src/lib/storyblok-types.ts',
+        pattern: /(\/\* TEMPLATE STORYBLOK SLICE \*\/)/g,
+        templateFile: './templates/base-slice/storyblok-slice.hbs',
       },
     ],
   })
