@@ -8,7 +8,7 @@ const defaultStory: Partial<
   StoryContextForEnhancers<{
     component: typeof {{pascalcase name}}
     storyResult: unknown
-  }>
+  }, Partial<{{pascalcase name}}Props>>
 > = {
   title: '{{pascalcase name}}',
   component: {{pascalcase name}},
